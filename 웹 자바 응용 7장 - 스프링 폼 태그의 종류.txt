@@ -1,0 +1,19 @@
+웹 자바 응용 7장 - 스프링 폼 태그의 종류
+
+<form> 폼의 시작과 끝을 나타낼 때 사용 <form>
+<input> 사용자가 일반 텍스트를 입력할 수 있는 입력 필드를 만들 때 사용 <input type="text">
+<checkbox> 여러 옵션 중 여러 개를 선택할 수 있는 체크박스를 만들 때 사용 <input type="checkbox">
+<checkboxes> <form:checkbox>목록을 나타낼 때 사용
+<radiobutton> 여러 옵션 중 하나를 선택할 수 있는 라디오버튼을 만들 때 사용 <input type="radio">
+<radiobuttons> <form:radiobutton>목록을 나타낼 때 사용
+<password> 사용자가 텍스트를 입력하면 자동으로 *로 변환되는 비밀번호 입력
+필드를 만들 때 사용
+<input type="password">
+<select> 콤보 박스나 리스트 박스를 만들 때 사용 <select>
+<option> <select>...</select>에 포함되어 목록을 구성할 때 사용 <option>
+<options> <form:option> 목록을 나타낼 때 사용
+<textarea> 사용자가 여러 줄의 텍스트를 입력할 수 있는 입력 박스를 제공할
+때 사용
+<textarea>
+<hidden> 웹 브라우저가 출력하지 않는 입력 폼을 만들 때 사용 <input type="hidden">
+<errors> 유효성 검사(validation)에서 생긴 오류 메시지를 만들 때 사용
